@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "next": "^12.0.10",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "web3": "^1.7.0"
+  },
+  "name": "baccano-frontend",
+  "description": "Frontend for Baccano Finance",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ca124/baccano-frontend.git"
+  },
+  "author": "ca124",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ca124/baccano-frontend/issues"
+  },
+  "homepage": "https://github.com/ca124/baccano-frontend#readme"
+}
