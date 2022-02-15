@@ -17,12 +17,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ca124/baccano-frontend.git"
+    "url": "git+https://github.com/baccano-finance/baccano-frontend.git"
   },
   "author": "ca124",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/ca124/baccano-frontend/issues"
+    "url": "https://github.com/baccano-finance/baccano-frontend/issues"
   },
-  "homepage": "https://github.com/ca124/baccano-frontend#readme"
+  "homepage": "https://github.com/baccano-finance/baccano-frontend#readme"
 }
