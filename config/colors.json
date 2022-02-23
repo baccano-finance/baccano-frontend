@@ -1,13 +1,16 @@
 {
     "colors": {
-        "purple": "#302D4C",
-        "gold": "#D4AF37",
-        "slate": "#303233",
+        "purple": "#1c1a30",
+        "purple-light": "#302D4C",
+        "gold": "#ffbb86",
+        "orange": "#ff8d6b",
+        "slate": "#1f1f1f",
         "white": "#FEFEFE"
     },
 
     "theme": {
         "bg": "purple",
+        "bg-light": "purple-light",
         "bg-alt": "slate",
         "accent": "gold",
         "text": "white"

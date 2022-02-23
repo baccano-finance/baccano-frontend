@@ -9,9 +9,7 @@ import Web3 from "web3"
 const web3 = new Web3(project.provider)
 
 
-const EthereumContext = createContext({
-    web3
-})
+const EthereumContext = createContext({})
 
 // Ethereum context provider
 
@@ -19,7 +17,7 @@ const EthereumContextProvider = ({ children }) => {
     // Default Ethereum application state
 
     const [ enabled, setEnabled ] = useState(false)
-    const [ chainId, setChainId ] = useState(project.chain)
+    const [ chainId, setChainId ] = useState(project.chainId)
     const [ account, setAccount ] = useState()
 
     // Update active chain
@@ -73,7 +71,6 @@ const EthereumContextProvider = ({ children }) => {
 
     return (
         <EthereumContext.Provider value={{
-            web3,
             enabled,
             chainId,
             account

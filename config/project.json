@@ -1,11 +1,13 @@
 {
     "name": "Baccano",
+    "suffix": "Finance",
     "desc": "Unlocking future yield on the Fantom blockchain",
-    "logo": "/logo.png",
-    "twitter": "@baccanofinance",
+    "logo": "/logo.svg",
+    "twitter": "@baccanofi",
     "domain": "baccano.finance",
-    "googleFont": "Nunito",
-    "chain": "0x592",
+    "googleFont": "Overlock",
+    "chainId": "0xFA",
+    "explorer": "https://ftmscan.com",
 
     "pages": {
         "home": "Home",
